@@ -14,16 +14,10 @@ npm run serve
 ```
 npm run build
 ```
+ ![image](https://github.com/mafeilongmafei/koa-elementUI/blob/master/public/img/1.png)
 
-### Run your tests
-```
-npm run test
-```
+ ![image](https://github.com/mafeilongmafei/koa-elementUI/blob/master/public/img/2.png)
 
-### Lints and fixes files
-```
-npm run lint
-```
+ ![image](https://github.com/mafeilongmafei/koa-elementUI/blob/master/public/img/3.png)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+ ![image](https://github.com/mafeilongmafei/koa-elementUI/blob/master/public/img/4.png)
