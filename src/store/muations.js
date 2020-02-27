@@ -18,11 +18,12 @@ export default {
     Vue.set(state.user, "avatar", user.avatar);
   },
   [GET_BY_USERINFO](state, { RouteTable }) {
-    let initRoutes = router.options.routes;
+    // let initRoutes = router.options.routes;
     let arr = filterRouterTable(filerRouter(RouteTable));
     state.routerTable = arr;
-    console.log([...arr, ...initRoutes]);
-    router.addRoutes([...arr, ...initRoutes]);
+    // console.log([...arr, ...initRoutes]);
+    // router.addRoutes([...arr, ...initRoutes]);
+    router.addRoutes([...arr]);
   },
   [GET_SHOPINFO](state, shopInfo) {
     state.shop = shopInfo;
