@@ -76,7 +76,9 @@
       </el-header>
 
       <el-main>
-        <router-view />
+        <transition name="layout">
+          <router-view />
+        </transition>
       </el-main>
     </el-container>
   </el-container>
@@ -201,6 +203,12 @@ export default {
   margin-left: 4px;
   display: inline-block;
 }
+.layout-enter-active, .layout-leave-active {
+  transition: opacity  0.7s;
+}
+.layout-enter, .layout-leave-to {
+  opacity: 0;
+} 
 </style>
 
 
